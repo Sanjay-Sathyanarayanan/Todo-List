@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Pacifico&family=Tangerine&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 40px;
+    background-color: #e4ded4;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+
+   
+}
+ 
+main > h1{
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.note-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:80vh ;
+    width:500px ;
+    background-color:snow;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.20);
+}
+.note-container > .date{
+    margin-bottom: 8px;
+    margin-right: 275px;
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+
+.note-container > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note-container > form > input{
+    height: 40px;
+    width: 365px;
+    border: none;
+    font-family: cursive;
+    outline: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15) ;
+    border-radius: 2.5px;
+}
+.note-container > form > button{
+    margin-inline: 2px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.85rem;
+    background-color: snow;
+}
+
+.notes{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 40px;
+width: 400px ;
+font-size: 1rem;
+font-family: cursive; 
+line-height: 1;
+}
+
+.edit-buttons > button{
+    margin-inline: 1.5px;
+    height: 30px;
+    width: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: snow; 
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+
